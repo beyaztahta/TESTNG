@@ -10,12 +10,12 @@ public class Day19_TestNGAnnotations {
     suite > tests > group > class > method
     @BeforeSuite :her bir test suite den once 1 sefer cagrılır.
     @AfterSuite :her bir test suite den sonra 1 sefer cagrılır.
-    @BeforeTest : Her bir Test'den once(TEST CASE ILE KARISTIRILMAMALI) 1 sefer calisir
-    @AfterTest : Her bir Test'den sonra(TEST CASE ILE KARISTIRILMAMALI) icin 1 sefer calisir
+    @BeforeTest : Her bir Test'den once(TEST CASE ILE KARISTIRILMAMALI) 1 sefer calisir.==>mesela icnde bulundugum projeye.
+    @AfterTest : Her bir Test'den sonra(TEST CASE ILE KARISTIRILMAMALI) icin 1 sefer calisir==>mesela icnde bulundugum projeye.
     @BeforeClass : Her bir class'dan once 1 sefer calisir
     @AfterClass : Her bir class'dan sonra 1 sefer calisir
-    @Before Method : her bir @Test annotationdan once tek sefer calisir. JUnitdeki karsiligi sadece @Before
-    @After Method : her bir @Test annotationdan sonra tek sefer calisir. JUnitdeki karsiligi sadece @After
+    @BeforeMethod : her bir @Test annotationdan once tek sefer calisir. JUnitdeki karsiligi sadece @Before
+    @AfterMethod : her bir @Test annotationdan sonra tek sefer calisir. JUnitdeki karsiligi sadece @After
     -----------------------------------------------------------------------------------------------------------------
     @Ignore : @Test caseleri atlamak(skip,ignore) icin kullanilir
     @Test(enabled = false) : @Test caseleri kullanima kapatmak icin kullanilir
