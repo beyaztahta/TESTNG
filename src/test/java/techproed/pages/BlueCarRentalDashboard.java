@@ -13,4 +13,10 @@ public class BlueCarRentalDashboard {
 
     @FindBy(xpath = "//*[@id='dropdown-basic-button']")
     public WebElement userNameText;
+
+    @FindBy(linkText = "Logout")
+    public WebElement logOutBtn;
+
+    @FindBy(xpath = "//button[.='OK']")
+    public WebElement logoutAcceptBtn;
 }

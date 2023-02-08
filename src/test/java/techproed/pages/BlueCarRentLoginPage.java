@@ -21,15 +21,11 @@ public class BlueCarRentLoginPage {
     @FindBy(xpath = "//*[@type='submit']")
     public WebElement loginBtn;
 
+    @FindBy(xpath = "//*[@class='invalid-feedback']")
+    public WebElement invalidFeedback;
 
-//
-//    @FindBy(xpath = "//*[@name='email']")
-//    public WebElement username;
-//
-//    @FindBy(xpath = "//*[@name='password']")
-//    public WebElement password;
-//
-//    @FindBy(xpath = "//*[@type='submit']")
-//    public WebElement LoginBtn;
+
+
+
 
 }

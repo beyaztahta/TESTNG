@@ -17,15 +17,19 @@ public class Day22_PositiveLoginTest {
 
         //1. url'ye git
         Driver.getDriver().get(ConfigReader.getProperty("blueRental_url"));
+
         //2. Login butonuna bas
         BlueCarRentHomePage objeHomePage = new BlueCarRentHomePage();
         objeHomePage.homePageLoginButton.click();
+
         //3. username ve sifre alanlarini gecerli verilerle doldur
         BlueCarRentLoginPage objeLoginPage = new BlueCarRentLoginPage();
         objeLoginPage.username.sendKeys(ConfigReader.getProperty("blueRental_username"));
         objeLoginPage.password.sendKeys(ConfigReader.getProperty("blueRental_password"));
+
         //4. login butonuna bas
         objeLoginPage.loginBtn.click();
+
         //5. basarili bir sekilde giris yapildigini dogrula
         BlueCarRentalDashboard dashboardObje = new BlueCarRentalDashboard();
         Assert.assertEquals("Jack Nicholson", dashboardObje.userNameText.getText());
