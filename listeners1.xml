@@ -2,10 +2,10 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <listeners>
-        <listener class-name="techproed.utilities.ListenersRetryAnalyzer"></listener>
+        <listener class-name="techproed.utilities.Listeners"></listener>
     </listeners>
     <test verbose="2" preserve-order="true"
-          name="C:/Users/Muhammet Okumu�/intellij/B103TestNGProject/src/test/java/techproed/tests/listeners/Day27_ListenersTest2.java">
+          name="listeners1">
         <classes>
             <class name="techproed.tests.listeners.Day27_ListenersTest2">
                 <methods>
